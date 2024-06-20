@@ -1,6 +1,6 @@
 public class TemperatureDisplay implements Observer{
     public void update(int temperature) {
-        System.out.println("La temperatura actual es de " + temperature + " grados Celsius");
+        System.out.println("La temperatura actual es de " + temperature + "°C");
     }
 }
 
